@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation li{
+    margin: 0;
+    display: inline;
+    padding: 12px;
+}
+li button{
+    background-color: blue;
+    color:white;
+    border-style: none;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.logo{
+    margin-top: 8%;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
+form{
+    display: block;
+}
+form input{
+    box-shadow: 2px 2px 5px rgba(105,105,105,0.3), -1px -1px 3px rgba(105,105,105,0.3);
+    width: 37%;
+    border-radius: 8px;
+    outline: none;
+    font-size: 120%;
+    border-color: grey;
+    border: 2px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    padding: 9px 9px 9px 30px;
+}
+#search_icon{
+    position: absolute;
+    font-size: 20px;
+    left: 32%;
+    top: 47%;
+    
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+#microphone-icon{
+    position: absolute;
+    right: 32%;
+    top: 47%;
+    font-size: 20px;
+}
+form button{
+    margin: 30px 3px 0px 3px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13%;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgb(175, 174, 174);
+
+}
+
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin: 0;
+    display: inline;
+    padding: 12px;
+    font-size: 14px;
+}
